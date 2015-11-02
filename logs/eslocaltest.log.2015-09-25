@@ -1,0 +1,122 @@
+[2015-09-26 00:24:24,423][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] request_id [83021] timed out after [15003ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:529)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 00:24:36,389][WARN ][transport                ] [Sandman] Received response for a request that has timed out, sent [30001ms] ago, timed out [1ms] ago, action [internal:discovery/zen/fd/ping], node [[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]], id [83020]
+[2015-09-26 00:24:36,797][WARN ][transport                ] [Sandman] Received response for a request that has timed out, sent [27380ms] ago, timed out [12377ms] ago, action [cluster:monitor/nodes/stats[n]], node [[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]], id [83021]
+[2015-09-26 08:00:28,704][WARN ][transport.netty          ] [Sandman] exception caught on transport layer [[id: 0xea5eaf93, /192.168.1.10:52213 => /192.168.1.10:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 08:00:28,832][INFO ][cluster.service          ] [Sandman] removed {[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]],}, reason: zen-disco-node_failed([Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]), reason transport disconnected
+[2015-09-26 08:00:28,846][INFO ][cluster.routing          ] [Sandman] delaying allocation for [5] unassigned shards, next check in [59.9s]
+[2015-09-26 08:00:31,894][INFO ][cluster.service          ] [Sandman] added {[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]],}, reason: zen-disco-receive(join from node[[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]])
+[2015-09-26 09:15:51,767][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] request_id [83461] timed out after [4504899ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:529)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 09:15:51,772][WARN ][discovery.zen.publish    ] [Sandman] timed out waiting for all nodes to process published state [16] (timeout [30s], pending nodes: [[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]])
+[2015-09-26 09:15:51,792][INFO ][cluster.routing          ] [Sandman] delaying allocation for [0] unassigned shards, next check in [0s]
+[2015-09-26 09:15:51,874][WARN ][cluster.service          ] [Sandman] cluster state update task [shard-started ([medtree-std-org-dept][4], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[INITIALIZING], unassigned_info[[reason=NODE_LEFT], at[2015-09-26T00:00:28.811Z], details[node_left[FKwU-g_HQTOrnOCiDDKfEw]]]), reason [after recovery (replica) from node [[Sandman][3d_PBxBmQ0q_1PpTfOjd-g][localhost][inet[/192.168.1.10:9301]]]]] took 1.2h above the warn threshold of 30s
+[2015-09-26 09:15:56,529][WARN ][transport.netty          ] [Sandman] exception caught on transport layer [[id: 0xfb95212f, /192.168.1.10:62767 => /192.168.1.10:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 09:15:56,585][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] disconnected
+[2015-09-26 09:15:56,585][INFO ][cluster.service          ] [Sandman] removed {[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]],}, reason: zen-disco-node_failed([Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]), reason transport disconnected
+[2015-09-26 09:15:56,586][INFO ][cluster.routing          ] [Sandman] delaying allocation for [3] unassigned shards, next check in [59.9s]
+[2015-09-26 09:15:56,588][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][1], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[INITIALIZING], unassigned_info[[reason=NODE_LEFT], at[2015-09-26T00:00:28.811Z], details[node_left[FKwU-g_HQTOrnOCiDDKfEw]]]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@654e3a72]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 09:15:56,588][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][4], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[INITIALIZING], unassigned_info[[reason=NODE_LEFT], at[2015-09-26T00:00:28.811Z], details[node_left[FKwU-g_HQTOrnOCiDDKfEw]]]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@654e3a72]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 09:15:56,588][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][1], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[INITIALIZING], unassigned_info[[reason=NODE_LEFT], at[2015-09-26T00:00:28.811Z], details[node_left[FKwU-g_HQTOrnOCiDDKfEw]]]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@72df4653]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 09:15:56,588][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][4], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[INITIALIZING], unassigned_info[[reason=NODE_LEFT], at[2015-09-26T00:00:28.811Z], details[node_left[FKwU-g_HQTOrnOCiDDKfEw]]]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@72df4653]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 09:15:59,431][INFO ][cluster.service          ] [Sandman] added {[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]],}, reason: zen-disco-receive(join from node[[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]])
+[2015-09-26 10:23:54,512][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] request_id [83498] timed out after [4052741ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:529)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 10:24:03,900][WARN ][transport                ] [Sandman] Received response for a request that has timed out, sent [4076420ms] ago, timed out [9387ms] ago, action [internal:discovery/zen/fd/ping], node [[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]], id [83497]
+[2015-09-26 10:24:04,915][WARN ][transport                ] [Sandman] Received response for a request that has timed out, sent [4063145ms] ago, timed out [10404ms] ago, action [cluster:monitor/nodes/stats[n]], node [[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]], id [83498]
+[2015-09-26 12:30:10,438][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] request_id [92525] timed out after [15009ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:529)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 12:30:32,795][WARN ][transport.netty          ] [Sandman] exception caught on transport layer [[id: 0x8cf468eb, /192.168.1.10:62813 => /192.168.1.10:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][2], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@3ef14f51]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][4], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@3ef14f51]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][1], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@4a46d2e2]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.cluster.node.stats] [Sandman] failed to execute on node [FKwU-g_HQTOrnOCiDDKfEw]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][cluster:monitor/nodes/stats[n]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][2], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@4a46d2e2]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][4], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@4a46d2e2]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][3], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@3ef14f51]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][1], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@3ef14f51]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][0], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@3ef14f51]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][0], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@4a46d2e2]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,799][DEBUG][action.admin.indices.stats] [Sandman] [medtree-std-org-dept][3], node[FKwU-g_HQTOrnOCiDDKfEw], [R], s[STARTED]: failed to execute [org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest@4a46d2e2]
+org.elasticsearch.transport.NodeDisconnectedException: [Psi-Lord][inet[/192.168.1.10:9300]][indices:monitor/stats[s]] disconnected
+[2015-09-26 12:30:32,801][INFO ][cluster.service          ] [Sandman] removed {[Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]],}, reason: zen-disco-node_failed([Psi-Lord][FKwU-g_HQTOrnOCiDDKfEw][localhost][inet[/192.168.1.10:9300]]), reason transport disconnected
+[2015-09-26 12:30:32,801][INFO ][cluster.routing          ] [Sandman] delaying allocation for [5] unassigned shards, next check in [59.9s]

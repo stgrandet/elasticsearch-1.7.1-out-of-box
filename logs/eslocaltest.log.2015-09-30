@@ -1,0 +1,15 @@
+[2015-10-07 10:32:49,416][INFO ][node                     ] [Red Ghost] version[1.7.1], pid[1086], build[b88f43f/2015-07-29T09:54:16Z]
+[2015-10-07 10:32:49,417][INFO ][node                     ] [Red Ghost] initializing ...
+[2015-10-07 10:32:49,559][INFO ][plugins                  ] [Red Ghost] loaded [analysis-pinyin, analysis-ik], sites [head]
+[2015-10-07 10:32:49,611][INFO ][env                      ] [Red Ghost] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [144gb], net total_space [232.6gb], types [hfs]
+[2015-10-07 10:32:52,342][INFO ][node                     ] [Red Ghost] initialized
+[2015-10-07 10:32:52,343][INFO ][node                     ] [Red Ghost] starting ...
+[2015-10-07 10:32:52,415][INFO ][transport                ] [Red Ghost] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.4:9300]}
+[2015-10-07 10:32:52,437][INFO ][discovery                ] [Red Ghost] eslocaltest/MX-R0bv0SBCIu-Cm7saWRQ
+[2015-10-07 10:32:55,475][INFO ][cluster.service          ] [Red Ghost] detected_master [Mayhem][F2Jd4ZXRTIWTs1BX07rBsQ][localhost][inet[/192.168.1.4:9301]], added {[Mayhem][F2Jd4ZXRTIWTs1BX07rBsQ][localhost][inet[/192.168.1.4:9301]],}, reason: zen-disco-receive(from master [[Mayhem][F2Jd4ZXRTIWTs1BX07rBsQ][localhost][inet[/192.168.1.4:9301]]])
+[2015-10-07 10:32:55,482][INFO ][http                     ] [Red Ghost] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.4:9200]}
+[2015-10-07 10:32:55,482][INFO ][node                     ] [Red Ghost] started
+[2015-10-07 10:32:55,993][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-10-07 10:32:55,993][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/sougou.dict
+[2015-10-07 10:32:56,502][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-10-07 14:25:49,661][WARN ][transport                ] [Red Ghost] Received response for a request that has timed out, sent [30008ms] ago, timed out [3ms] ago, action [internal:discovery/zen/fd/master_ping], node [[Mayhem][F2Jd4ZXRTIWTs1BX07rBsQ][localhost][inet[/192.168.1.4:9301]]], id [11199]

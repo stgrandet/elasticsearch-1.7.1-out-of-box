@@ -1,0 +1,16 @@
+[2015-09-23 13:07:01,021][INFO ][node                     ] [The Profile] version[1.7.1], pid[5839], build[b88f43f/2015-07-29T09:54:16Z]
+[2015-09-23 13:07:01,022][INFO ][node                     ] [The Profile] initializing ...
+[2015-09-23 13:07:01,178][INFO ][plugins                  ] [The Profile] loaded [analysis-pinyin, analysis-ik], sites [head]
+[2015-09-23 13:07:01,231][INFO ][env                      ] [The Profile] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [132.7gb], net total_space [232.6gb], types [hfs]
+[2015-09-23 13:07:03,928][INFO ][node                     ] [The Profile] initialized
+[2015-09-23 13:07:03,928][INFO ][node                     ] [The Profile] starting ...
+[2015-09-23 13:07:04,002][INFO ][transport                ] [The Profile] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.32.120:9301]}
+[2015-09-23 13:07:04,020][INFO ][discovery                ] [The Profile] eslocaltest/cIpAlN9kSr6ojIEzFj1-5g
+[2015-09-23 13:07:07,051][INFO ][cluster.service          ] [The Profile] new_master [The Profile][cIpAlN9kSr6ojIEzFj1-5g][linruis-MacBook-Pro.local][inet[/192.168.32.120:9301]], reason: zen-disco-join (elected_as_master)
+[2015-09-23 13:07:07,054][INFO ][cluster.service          ] [The Profile] added {[Klaw][wNUZMbTtStObFy6pZZRK1g][linruis-MacBook-Pro.local][inet[/192.168.32.120:9300]],}, reason: zen-disco-receive(join from node[[Klaw][wNUZMbTtStObFy6pZZRK1g][linruis-MacBook-Pro.local][inet[/192.168.32.120:9300]]])
+[2015-09-23 13:07:07,075][INFO ][http                     ] [The Profile] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.32.120:9201]}
+[2015-09-23 13:07:07,075][INFO ][node                     ] [The Profile] started
+[2015-09-23 13:07:07,126][INFO ][gateway                  ] [The Profile] recovered [1] indices into cluster_state
+[2015-09-23 13:07:08,831][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-09-23 13:07:08,831][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/sougou.dict
+[2015-09-23 13:07:09,352][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic

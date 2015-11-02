@@ -1,0 +1,14 @@
+[2015-09-22 10:49:29,529][INFO ][node                     ] [Margo Damian] version[1.7.1], pid[2025], build[b88f43f/2015-07-29T09:54:16Z]
+[2015-09-22 10:49:29,530][INFO ][node                     ] [Margo Damian] initializing ...
+[2015-09-22 10:49:29,675][INFO ][plugins                  ] [Margo Damian] loaded [analysis-pinyin, analysis-ik], sites [head]
+[2015-09-22 10:49:29,723][INFO ][env                      ] [Margo Damian] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [134.1gb], net total_space [232.6gb], types [hfs]
+[2015-09-22 10:49:32,484][INFO ][node                     ] [Margo Damian] initialized
+[2015-09-22 10:49:32,484][INFO ][node                     ] [Margo Damian] starting ...
+[2015-09-22 10:49:32,556][INFO ][transport                ] [Margo Damian] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.32.120:9301]}
+[2015-09-22 10:49:32,571][INFO ][discovery                ] [Margo Damian] eslocaltest/L1YE93eLQW6LAcS9c1JM9w
+[2015-09-22 10:49:35,613][INFO ][cluster.service          ] [Margo Damian] detected_master [Tanya Anderssen][7Zk3Zty9SPW-2HAcldb9dQ][linruis-MacBook-Pro.local][inet[/192.168.32.120:9300]], added {[Tanya Anderssen][7Zk3Zty9SPW-2HAcldb9dQ][linruis-MacBook-Pro.local][inet[/192.168.32.120:9300]],}, reason: zen-disco-receive(from master [[Tanya Anderssen][7Zk3Zty9SPW-2HAcldb9dQ][linruis-MacBook-Pro.local][inet[/192.168.32.120:9300]]])
+[2015-09-22 10:49:35,620][INFO ][http                     ] [Margo Damian] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.32.120:9200]}
+[2015-09-22 10:49:35,621][INFO ][node                     ] [Margo Damian] started
+[2015-09-22 10:49:36,150][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-09-22 10:49:36,151][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/sougou.dict
+[2015-09-22 10:49:36,687][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic

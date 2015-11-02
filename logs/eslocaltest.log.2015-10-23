@@ -1,0 +1,315 @@
+[2015-10-23 00:58:27,093][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0xd9ca888f]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:806)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,434][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x73c429a5]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:806)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,436][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x135563b2]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:809)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,442][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0xe5081537]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:809)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,443][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x90b33a7c]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:809)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,444][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x65807e94]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,446][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0xd829ef1e]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,447][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0xdd3da8e3]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,450][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x22bcadff]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,452][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x3b213e38]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,471][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x2dbd99b5]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:812)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,472][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0x500d01e7]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:815)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:27,478][WARN ][transport.netty          ] [Locksmith] exception caught on transport layer [[id: 0xff8133e5]], closing connection
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.connect(Channels.java:634)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.connect(AbstractChannel.java:216)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.elasticsearch.common.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:818)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:758)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:731)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:216)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:584)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-10-23 00:58:36,512][INFO ][node                     ] [Locksmith] stopping ...
+[2015-10-23 00:58:36,630][INFO ][node                     ] [Locksmith] stopped
+[2015-10-23 00:58:36,630][INFO ][node                     ] [Locksmith] closing ...
+[2015-10-23 00:58:36,640][INFO ][node                     ] [Locksmith] closed
+[2015-10-23 13:56:28,408][INFO ][node                     ] [Dust] version[1.7.1], pid[2427], build[b88f43f/2015-07-29T09:54:16Z]
+[2015-10-23 13:56:28,408][INFO ][node                     ] [Solomon O'Sullivan] version[1.7.1], pid[2428], build[b88f43f/2015-07-29T09:54:16Z]
+[2015-10-23 13:56:28,409][INFO ][node                     ] [Solomon O'Sullivan] initializing ...
+[2015-10-23 13:56:28,409][INFO ][node                     ] [Dust] initializing ...
+[2015-10-23 13:56:28,549][INFO ][plugins                  ] [Dust] loaded [analysis-pinyin, analysis-ik], sites [head]
+[2015-10-23 13:56:28,549][INFO ][plugins                  ] [Solomon O'Sullivan] loaded [analysis-pinyin, analysis-ik], sites [head]
+[2015-10-23 13:56:28,601][INFO ][env                      ] [Dust] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [142.2gb], net total_space [232.6gb], types [hfs]
+[2015-10-23 13:56:28,601][INFO ][env                      ] [Solomon O'Sullivan] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [142.2gb], net total_space [232.6gb], types [hfs]
+[2015-10-23 13:56:31,268][INFO ][node                     ] [Solomon O'Sullivan] initialized
+[2015-10-23 13:56:31,269][INFO ][node                     ] [Solomon O'Sullivan] starting ...
+[2015-10-23 13:56:31,268][INFO ][node                     ] [Dust] initialized
+[2015-10-23 13:56:31,269][INFO ][node                     ] [Dust] starting ...
+[2015-10-23 13:56:31,338][INFO ][transport                ] [Dust] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.31.120:9300]}
+[2015-10-23 13:56:31,339][INFO ][transport                ] [Solomon O'Sullivan] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.31.120:9301]}
+[2015-10-23 13:56:31,357][INFO ][discovery                ] [Solomon O'Sullivan] eslocaltest/se02Yi91QT2H6rk5PZfzZQ
+[2015-10-23 13:56:31,357][INFO ][discovery                ] [Dust] eslocaltest/316ywfB9SzKXMxnMHksMcg
+[2015-10-23 13:56:34,387][INFO ][cluster.service          ] [Dust] new_master [Dust][316ywfB9SzKXMxnMHksMcg][linruis-MacBook-Pro.local][inet[/192.168.31.120:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-23 13:56:34,389][INFO ][cluster.service          ] [Dust] added {[Solomon O'Sullivan][se02Yi91QT2H6rk5PZfzZQ][linruis-MacBook-Pro.local][inet[/192.168.31.120:9301]],}, reason: zen-disco-receive(join from node[[Solomon O'Sullivan][se02Yi91QT2H6rk5PZfzZQ][linruis-MacBook-Pro.local][inet[/192.168.31.120:9301]]])
+[2015-10-23 13:56:34,398][INFO ][cluster.service          ] [Solomon O'Sullivan] detected_master [Dust][316ywfB9SzKXMxnMHksMcg][linruis-MacBook-Pro.local][inet[/192.168.31.120:9300]], added {[Dust][316ywfB9SzKXMxnMHksMcg][linruis-MacBook-Pro.local][inet[/192.168.31.120:9300]],}, reason: zen-disco-receive(from master [[Dust][316ywfB9SzKXMxnMHksMcg][linruis-MacBook-Pro.local][inet[/192.168.31.120:9300]]])
+[2015-10-23 13:56:34,405][INFO ][http                     ] [Solomon O'Sullivan] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.31.120:9200]}
+[2015-10-23 13:56:34,405][INFO ][node                     ] [Solomon O'Sullivan] started
+[2015-10-23 13:56:34,410][INFO ][http                     ] [Dust] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.31.120:9201]}
+[2015-10-23 13:56:34,410][INFO ][node                     ] [Dust] started
+[2015-10-23 13:56:34,457][INFO ][gateway                  ] [Dust] recovered [1] indices into cluster_state
+[2015-10-23 13:56:34,920][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-10-23 13:56:34,920][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/sougou.dict
+[2015-10-23 13:56:35,422][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-10-23 13:56:36,172][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-10-23 13:56:36,172][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/sougou.dict
+[2015-10-23 13:56:36,636][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-10-23 19:01:58,545][INFO ][node                     ] [Solomon O'Sullivan] stopping ...
+[2015-10-23 19:01:58,545][INFO ][node                     ] [Dust] stopping ...
+[2015-10-23 19:01:58,607][INFO ][node                     ] [Solomon O'Sullivan] stopped
+[2015-10-23 19:01:58,607][INFO ][node                     ] [Solomon O'Sullivan] closing ...
+[2015-10-23 19:01:58,608][INFO ][node                     ] [Dust] stopped
+[2015-10-23 19:01:58,608][INFO ][node                     ] [Dust] closing ...
+[2015-10-23 19:01:58,612][INFO ][node                     ] [Dust] closed
+[2015-10-23 19:01:58,614][INFO ][node                     ] [Solomon O'Sullivan] closed
