@@ -397,6 +397,28 @@ index:
       ik_smart:
           type: ik
           use_smart: true
+      standard_pinyin:
+          tokenizer: standard
+          filter: only_pinyin
+      ik_pinyin:
+          tokenizer: ik
+          filter: only_pinyin  
+      standard_first_letter:
+          tokenizer: standard
+          filter: only_first_letter
+      ik_first_letter:
+          tokenizer: ik
+          filter: only_first_letter                                   
+    filter:
+      only_pinyin:
+          type: pinyin
+          first_letter: none
+          padding_char: ""
+      only_first_letter:
+          type: pinyin
+          first_letter: only
+          padding_char: ""
+
 
 index.analysis.analyzer.default.type: ik
 
