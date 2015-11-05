@@ -2,3 +2,8 @@
 
 # To start elasticsearch
 ./bin/elasticsearch
+
+# Default Analyzer
+The default analyzer is ik, in order to support chinese.
+
+
